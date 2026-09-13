@@ -1,0 +1,44 @@
+# -*- coding: utf-8 -*-
+import json
+from pathlib import Path
+
+root = Path(__file__).resolve().parents[1]
+data_dir = root / "data"
+data_dir.mkdir(exist_ok=True)
+
+# RMB million; company-reported Adjusted / Non-GAAP
+rows = [
+    {"fy": 2017, "gaap_ni": 41226, "nongaap_ni": 57871, "adj_ebita": 69172, "adj_ebitda": 74456},
+    {"fy": 2018, "gaap_ni": 61412, "nongaap_ni": 83214, "adj_ebita": 97003, "adj_ebitda": 105792},
+    {"fy": 2019, "gaap_ni": 80234, "nongaap_ni": 93407, "adj_ebita": 106981, "adj_ebitda": 121943},
+    {"fy": 2020, "gaap_ni": 140350, "nongaap_ni": 132479, "adj_ebita": 137136, "adj_ebitda": 157659},
+    {"fy": 2021, "gaap_ni": 143284, "nongaap_ni": 171985, "adj_ebita": 170453, "adj_ebitda": 196842},
+    {"fy": 2022, "gaap_ni": 47079, "nongaap_ni": 136388, "adj_ebita": 130397, "adj_ebitda": 158205},
+    {"fy": 2023, "gaap_ni": 65573, "nongaap_ni": 141379, "adj_ebita": 147911, "adj_ebitda": 175710},
+    {"fy": 2024, "gaap_ni": 71332, "nongaap_ni": 157479, "adj_ebita": 165028, "adj_ebitda": 191668},
+    {"fy": 2025, "gaap_ni": 125976, "nongaap_ni": 158122, "adj_ebita": 173065, "adj_ebitda": 202325},
+    {"fy": 2026, "gaap_ni": 102127, "nongaap_ni": 60658, "adj_ebita": 76416, "adj_ebitda": 113483},
+]
+
+meta = {
+    "company": "Alibaba Group Holding Limited",
+    "currency": "RMB million",
+    "as_of": "2026-09-12",
+    "definitions": {
+        "gaap_ni": "Consolidated Net income (U.S. GAAP)",
+        "nongaap_ni": "Non-GAAP net income — excludes SBC, intangibles amort/impairment, investment disposal/revaluation gains/losses, goodwill/investment impairment, etc.",
+        "adj_ebita": "Adjusted EBITA — operating profitability before interest & investment income, tax, amort; also excl. SBC etc.",
+        "adj_ebitda": "Adjusted EBITDA — Adjusted EBITA + D&A of PP&E/land use rights",
+    },
+    "investment_notes": [
+        "FY2020: GAAP NI > Non-GAAP — equity investment mark-to-market/disposal gains inflated GAAP profit",
+        "FY2021: GAAP NI still high but Non-GAAP higher — antitrust fine & SBC etc.; investment gains still in GAAP path",
+        "FY2022: GAAP NI collapsed vs Non-GAAP — public equity investment fair-value losses",
+        "FY2026: Interest and investment income, net RMB87.5bn; GAAP NI > Non-GAAP; Non-GAAP/Adj EBITA fell sharply on quick commerce & tech investment",
+    ],
+    "source": "Alibaba results announcements / Form 20-F / HKEX ARA FY2017–FY2026",
+    "rows": rows,
+}
+path = data_dir / "alibaba_nongaap_ebita_ebitda_fy2017_2026.json"
+path.write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+print("wrote", path)

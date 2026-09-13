@@ -1,0 +1,8 @@
+# Cursor skills are a junction to invest-skill — do not commit
+.cursor/skills/
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp

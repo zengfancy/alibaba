@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="480" y="36" text-anchor="middle" font-family="Microsoft YaHei, SimHei, sans-serif" font-size="20" font-weight="700" fill="#1a1a1a">阿里巴巴营业收入与净利润（FY2017–FY2026）</text>
+<text x="480" y="58" text-anchor="middle" font-family="Microsoft YaHei, SimHei, sans-serif" font-size="12" fill="#666">单位：亿元人民币｜财年截至3月31日｜净利润=合并报表Net income</text>
+<line x1="70" y1="70" x2="70" y2="470" stroke="#333" stroke-width="1.2"/>
+<line x1="70" y1="470" x2="890" y2="470" stroke="#333" stroke-width="1.2"/>
+<line x1="70" y1="470.0" x2="890" y2="470.0" stroke="#e6e6e6" stroke-width="1"/>
+<text x="60" y="474.0" text-anchor="end" font-family="Segoe UI, sans-serif" font-size="11" fill="#555">0</text>
+<line x1="70" y1="400.2230490015616" x2="890" y2="400.2230490015616" stroke="#e6e6e6" stroke-width="1"/>
+<text x="60" y="404.2230490015616" text-anchor="end" font-family="Segoe UI, sans-serif" font-size="11" fill="#555">2000</text>
+<line x1="70" y1="330.44609800312327" x2="890" y2="330.44609800312327" stroke="#e6e6e6" stroke-width="1"/>
+<text x="60" y="334.44609800312327" text-anchor="end" font-family="Segoe UI, sans-serif" font-size="11" fill="#555">4000</text>
+<line x1="70" y1="260.6691470046849" x2="890" y2="260.6691470046849" stroke="#e6e6e6" stroke-width="1"/>
+<text x="60" y="264.6691470046849" text-anchor="end" font-family="Segoe UI, sans-serif" font-size="11" fill="#555">6000</text>
+<line x1="70" y1="190.89219600624648" x2="890" y2="190.89219600624648" stroke="#e6e6e6" stroke-width="1"/>
+<text x="60" y="194.89219600624648" text-anchor="end" font-family="Segoe UI, sans-serif" font-size="11" fill="#555">8000</text>
+<line x1="70" y1="121.11524500780806" x2="890" y2="121.11524500780806" stroke="#e6e6e6" stroke-width="1"/>
+<text x="60" y="125.11524500780806" text-anchor="end" font-family="Segoe UI, sans-serif" font-size="11" fill="#555">10000</text>
+<rect x="81.5" y="414.8" width="59.0" height="55.2" fill="#FF6A00" opacity="0.9"/>
+<text x="111.0" y="408.8" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#FF6A00">1583</text>
+<text x="111.0" y="488" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#333">2017</text>
+<rect x="163.5" y="382.7" width="59.0" height="87.3" fill="#FF6A00" opacity="0.9"/>
+<text x="193.0" y="376.7" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#FF6A00">2503</text>
+<text x="193.0" y="488" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#333">2018</text>
+<rect x="245.5" y="338.5" width="59.0" height="131.5" fill="#FF6A00" opacity="0.9"/>
+<text x="275.0" y="332.5" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#FF6A00">3768</text>
+<text x="275.0" y="488" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#333">2019</text>
+<rect x="327.5" y="292.2" width="59.0" height="177.8" fill="#FF6A00" opacity="0.9"/>
+<text x="357.0" y="286.2" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#FF6A00">5097</text>
+<text x="357.0" y="488" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#333">2020</text>
+<rect x="409.5" y="219.7" width="59.0" height="250.3" fill="#FF6A00" opacity="0.9"/>
+<text x="439.0" y="213.7" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#FF6A00">7173</text>
+<text x="439.0" y="488" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#333">2021</text>
+<rect x="491.5" y="172.4" width="59.0" height="297.6" fill="#FF6A00" opacity="0.9"/>
+<text x="521.0" y="166.4" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#FF6A00">8531</text>
+<text x="521.0" y="488" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#333">2022</text>
+<rect x="573.5" y="166.9" width="59.0" height="303.1" fill="#FF6A00" opacity="0.9"/>
+<text x="603.0" y="160.9" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#FF6A00">8687</text>
+<text x="603.0" y="488" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#333">2023</text>
+<rect x="655.5" y="141.6" width="59.0" height="328.4" fill="#FF6A00" opacity="0.9"/>
+<text x="685.0" y="135.6" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#FF6A00">9412</text>
+<text x="685.0" y="488" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#333">2024</text>
+<rect x="737.5" y="122.4" width="59.0" height="347.6" fill="#FF6A00" opacity="0.9"/>
+<text x="767.0" y="116.4" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#FF6A00">9963</text>
+<text x="767.0" y="488" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#333">2025</text>
+<rect x="819.5" y="112.9" width="59.0" height="357.1" fill="#FF6A00" opacity="0.9"/>
+<text x="849.0" y="106.9" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#FF6A00">10237</text>
+<text x="849.0" y="488" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#333">2026</text>
+<polyline points="111.0,455.6 193.0,448.6 275.0,442.0 357.0,421.0 439.0,420.0 521.0,453.6 603.0,447.1 685.0,445.1 767.0,426.0 849.0,434.4" fill="none" stroke="#2F5D8C" stroke-width="2.5"/>
+<circle cx="111.0" cy="455.6" r="4" fill="#2F5D8C"/>
+<text x="111.0" y="445.6" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#2F5D8C">412</text>
+<circle cx="193.0" cy="448.6" r="4" fill="#2F5D8C"/>
+<text x="193.0" y="438.6" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#2F5D8C">614</text>
+<circle cx="275.0" cy="442.0" r="4" fill="#2F5D8C"/>
+<text x="275.0" y="432.0" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#2F5D8C">802</text>
+<circle cx="357.0" cy="421.0" r="4" fill="#2F5D8C"/>
+<text x="357.0" y="411.0" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#2F5D8C">1404</text>
+<circle cx="439.0" cy="420.0" r="4" fill="#2F5D8C"/>
+<text x="439.0" y="410.0" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#2F5D8C">1433</text>
+<circle cx="521.0" cy="453.6" r="4" fill="#2F5D8C"/>
+<text x="521.0" y="443.6" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#2F5D8C">471</text>
+<circle cx="603.0" cy="447.1" r="4" fill="#2F5D8C"/>
+<text x="603.0" y="437.1" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#2F5D8C">656</text>
+<circle cx="685.0" cy="445.1" r="4" fill="#2F5D8C"/>
+<text x="685.0" y="435.1" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#2F5D8C">713</text>
+<circle cx="767.0" cy="426.0" r="4" fill="#2F5D8C"/>
+<text x="767.0" y="416.0" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#2F5D8C">1260</text>
+<circle cx="849.0" cy="434.4" r="4" fill="#2F5D8C"/>
+<text x="849.0" y="424.4" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#2F5D8C">1021</text>
+<rect x="300" y="500" width="14" height="14" fill="#FF6A00"/>
+<text x="320" y="512" font-family="Microsoft YaHei, SimHei, sans-serif" font-size="13" fill="#333">营业收入（柱）</text>
+<line x1="450" y1="507" x2="480" y2="507" stroke="#2F5D8C" stroke-width="2.5"/>
+<circle cx="465" cy="507" r="4" fill="#2F5D8C"/>
+<text x="490" y="512" font-family="Microsoft YaHei, SimHei, sans-serif" font-size="13" fill="#333">净利润（线）</text>
+<text x="480" y="532" text-anchor="middle" font-family="Microsoft YaHei, SimHei, sans-serif" font-size="11" fill="#888">来源：公司业绩公告 / 年报（港交所、SEC）</text>
+</svg>

@@ -1,0 +1,86 @@
+{
+  "company": "Alibaba Group Holding Limited",
+  "ticker": [
+    "9988.HK",
+    "BABA"
+  ],
+  "currency": "RMB million",
+  "metric_note": "净利润为合并报表 Net income（非归母）；财年截至3月31日",
+  "source": [
+    "Alibaba FY2017–FY2026 results announcements / annual reports (SEC / HKEX)",
+    "FY2026 ARA: https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0513/2026051300653.pdf"
+  ],
+  "as_of": "2026-09-12",
+  "rows": [
+    {
+      "fy": 2017,
+      "year_label": "FY2017",
+      "period_end": "2017-03-31",
+      "revenue_rmb_mn": 158273,
+      "net_income_rmb_mn": 41226
+    },
+    {
+      "fy": 2018,
+      "year_label": "FY2018",
+      "period_end": "2018-03-31",
+      "revenue_rmb_mn": 250266,
+      "net_income_rmb_mn": 61412
+    },
+    {
+      "fy": 2019,
+      "year_label": "FY2019",
+      "period_end": "2019-03-31",
+      "revenue_rmb_mn": 376844,
+      "net_income_rmb_mn": 80234
+    },
+    {
+      "fy": 2020,
+      "year_label": "FY2020",
+      "period_end": "2020-03-31",
+      "revenue_rmb_mn": 509711,
+      "net_income_rmb_mn": 140350
+    },
+    {
+      "fy": 2021,
+      "year_label": "FY2021",
+      "period_end": "2021-03-31",
+      "revenue_rmb_mn": 717289,
+      "net_income_rmb_mn": 143284
+    },
+    {
+      "fy": 2022,
+      "year_label": "FY2022",
+      "period_end": "2022-03-31",
+      "revenue_rmb_mn": 853062,
+      "net_income_rmb_mn": 47079
+    },
+    {
+      "fy": 2023,
+      "year_label": "FY2023",
+      "period_end": "2023-03-31",
+      "revenue_rmb_mn": 868687,
+      "net_income_rmb_mn": 65573
+    },
+    {
+      "fy": 2024,
+      "year_label": "FY2024",
+      "period_end": "2024-03-31",
+      "revenue_rmb_mn": 941168,
+      "net_income_rmb_mn": 71332
+    },
+    {
+      "fy": 2025,
+      "year_label": "FY2025",
+      "period_end": "2025-03-31",
+      "revenue_rmb_mn": 996347,
+      "net_income_rmb_mn": 125976
+    },
+    {
+      "fy": 2026,
+      "year_label": "FY2026",
+      "period_end": "2026-03-31",
+      "revenue_rmb_mn": 1023670,
+      "net_income_rmb_mn": 102127
+    }
+  ]
+}

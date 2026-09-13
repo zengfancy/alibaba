@@ -1,0 +1,27 @@
+/* Widen Markdown preview — remove default ~882px cap */
+html,
+body {
+  max-width: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 12px 28px !important;
+  box-sizing: border-box;
+}
+
+.vscode-body,
+.markdown-body {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
