@@ -1,0 +1,30 @@
+{
+  "metric": "阿里AI相关产品收入（AI云狭义口径，非云智能分部总收入）",
+  "unit": "RMB 亿元",
+  "quarter_convention": "日历季度：1Q=3月末，2Q=6月末，3Q=9月末，4Q=12月末",
+  "definition": "公司口径「AI-related product revenue / AI相关产品收入」：含AI相关算力、存储、MaaS、AI应用等；分母通常为云外部商业化收入。同比连续多个季度为三位数（≥100%）。勿与云智能/「AI云与算力服务」分部总收入（同比约个位数至45%）混淆。",
+  "notes": [
+    "公司直至1Q26才系统披露AI相关产品绝对额与ARR；更早季度多只披露「连续N个季度三位数同比」及偶发占比。",
+    "2Q25绝对额为约束推算（非公司直接披露）：占外部>20%，且2Q26同比超150% → 落在约49亿元附近。",
+    "连续三位数季度编号以2Q26=第12季向前回溯。"
+  ],
+  "rows": [
+    {"label": "3Q24", "period_end": "2024-09-30", "yoy": "三位数（≥100%）", "consecutive_triple_digit": 5, "revenue": null, "share_of_external": null, "source": "业绩公告仅披露三位数同比"},
+    {"label": "4Q24", "period_end": "2024-12-31", "yoy": "三位数（≥100%）", "consecutive_triple_digit": 6, "revenue": null, "share_of_external": null, "source": "业绩公告"},
+    {"label": "1Q25", "period_end": "2025-03-31", "yoy": "三位数（≥100%）", "consecutive_triple_digit": 7, "revenue": null, "share_of_external": null, "source": "业绩公告"},
+    {"label": "2Q25", "period_end": "2025-06-30", "yoy": "三位数（≥100%）", "consecutive_triple_digit": 8, "revenue_estimate": 49.0, "revenue_estimate_note": "由「占外部>20%」与「2Q26同比超150%」共同约束，约49亿元", "share_of_external": ">20%", "source": "2025-08-29业绩电话会；绝对额为推算"},
+    {"label": "3Q25", "period_end": "2025-09-30", "yoy": "三位数（≥100%）", "consecutive_triple_digit": 9, "revenue": null, "share_of_external": ">20%", "source": "业绩公告+电话会（占比仍超20%）"},
+    {"label": "4Q25", "period_end": "2025-12-31", "yoy": "三位数（≥100%）", "consecutive_triple_digit": 10, "revenue": null, "share_of_external": null, "source": "业绩公告"},
+    {"label": "1Q26", "period_end": "2026-03-31", "yoy": "三位数（≥100%）", "consecutive_triple_digit": 11, "revenue": 89.71, "share_of_external": "约30%", "arr": 358.0, "source": "公司业绩公告/电话会首次系统披露绝对额"},
+    {"label": "2Q26", "period_end": "2026-06-30", "yoy": "超+150%", "consecutive_triple_digit": 12, "revenue": 123.76, "share_of_external": "约35%", "arr": 495.0, "qoq_pct": 37.9, "source": "公司2026年6月季度业绩公告及电话会"}
+  ],
+  "contrast_cloud_segment": {
+    "note": "云智能/AI云与算力服务分部总收入近2年同比约+6%至+45%，显著低于AI相关产品三位数增速",
+    "see_also": "data/alibaba_cloud_quarterly_revenue.json"
+  },
+  "sources": [
+    "阿里巴巴各季度业绩公告",
+    "https://www.alibabagroup.com/zh-HK/document-2026456290057781248",
+    "业绩电话会：AI占外部>20%（2Q25/3Q25）、30%（1Q26）、35%（2Q26）"
+  ]
+}

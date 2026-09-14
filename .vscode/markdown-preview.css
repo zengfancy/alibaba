@@ -1,27 +1,84 @@
-/* Widen Markdown preview — remove default ~882px cap */
+/* Markdown 预览加宽：覆盖 VS Code / Cursor 默认约 800–980px 内容上限 */
+
+html {
+  max-width: none !important;
+  width: 100% !important;
+}
+
 html,
-body {
+body,
+body.vscode-body,
+body.vscode-body.vscode-light,
+body.vscode-body.vscode-dark,
+body.vscode-body.vscode-high-contrast {
   max-width: none !important;
   width: 100% !important;
   margin: 0 !important;
-  padding: 12px 28px !important;
-  box-sizing: border-box;
+  padding: 16px 36px 32px !important;
+  box-sizing: border-box !important;
 }
 
-.vscode-body,
+/* GitHub / 内置 markdown 样式常给 .markdown-body 设 max-width + 居中 */
+.vscode-body .markdown-body,
+body .markdown-body,
+div.markdown-body,
 .markdown-body {
   max-width: none !important;
   width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
 }
 
-table {
+/* 少数主题会包一层容器 */
+.markdown-body > *:first-child {
+  margin-top: 0 !important;
+}
+
+/* 普通大表可横向滚动 */
+.markdown-body > table:not(.charts-2col) {
   display: block;
   width: 100%;
   overflow-x: auto;
 }
 
+/* 并排图：保持真正的 table 双列 */
+table.charts-2col {
+  display: table !important;
+  width: 100% !important;
+  max-width: none !important;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 12px 0;
+  overflow: visible !important;
+}
+
+table.charts-2col td {
+  width: 50%;
+  vertical-align: top;
+  border: none !important;
+  background: transparent !important;
+}
+
+.charts-2col-wrap {
+  display: flex !important;
+  gap: 16px;
+  align-items: flex-start;
+  width: 100%;
+  max-width: none !important;
+}
+
+.charts-2col-wrap > div {
+  flex: 1 1 50%;
+  min-width: 0;
+}
+
+/* Mermaid / 图片吃满可用宽度 */
 img,
-svg {
-  max-width: 100%;
+svg,
+.mermaid,
+pre.mermaid {
+  max-width: 100% !important;
+  width: 100%;
   height: auto;
 }

@@ -1,0 +1,23 @@
+{
+  "metric": "阿里云相关分部季度收入（云智能集团 → 自2Q26起为「AI云与算力服务」）",
+  "unit": "RMB 100 million (亿元)",
+  "quarter_convention": "日历季度（季度截止月）：1Q=3月末，2Q=6月末，3Q=9月末，4Q=12月末",
+  "note": "收入取公司业绩公告；同比优先用公司披露或由同季收入重算。2Q26起分部为云智能集团+平头哥整合后的「AI云与算力服务」。",
+  "source_chart": "图49：阿里云业务营收（iFinD，中国银河证券研究院）；2Q26补充自公司2026年6月季度业绩公告",
+  "rows": [
+    {"label": "1Q23", "period_end": "2023-03-31", "revenue": 185.82, "yoy_pct": -2.0},
+    {"label": "2Q23", "period_end": "2023-06-30", "revenue": 251.23, "yoy_pct": 4.0},
+    {"label": "3Q23", "period_end": "2023-09-30", "revenue": 276.48, "yoy_pct": 2.0},
+    {"label": "4Q23", "period_end": "2023-12-31", "revenue": 280.66, "yoy_pct": 3.0},
+    {"label": "1Q24", "period_end": "2024-03-31", "revenue": 255.95, "yoy_pct": 3.0},
+    {"label": "2Q24", "period_end": "2024-06-30", "revenue": 265.49, "yoy_pct": 5.7},
+    {"label": "3Q24", "period_end": "2024-09-30", "revenue": 296.10, "yoy_pct": 7.1},
+    {"label": "4Q24", "period_end": "2024-12-31", "revenue": 317.42, "yoy_pct": 13.1},
+    {"label": "1Q25", "period_end": "2025-03-31", "revenue": 301.27, "yoy_pct": 17.7},
+    {"label": "2Q25", "period_end": "2025-06-30", "revenue": 334.18, "yoy_pct": 25.9, "note": "与2Q26公告可比基数一致（RMB33,418百万）"},
+    {"label": "3Q25", "period_end": "2025-09-30", "revenue": 398.24, "yoy_pct": 34.5},
+    {"label": "4Q25", "period_end": "2025-12-31", "revenue": 432.84, "yoy_pct": 36.4},
+    {"label": "1Q26", "period_end": "2026-03-31", "revenue": 416.26, "yoy_pct": 38.2},
+    {"label": "2Q26", "period_end": "2026-06-30", "revenue": 484.37, "yoy_pct": 45.0, "segment": "AI云与算力服务（云智能+平头哥）", "ai_related_revenue": 123.76}
+  ]
+}

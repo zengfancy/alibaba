@@ -7,10 +7,9 @@
   "currency": "RMB million",
   "metric_note": "净利润为合并报表 Net income（非归母）；财年截至3月31日",
   "source": [
-    "Alibaba FY2017–FY2026 results announcements / annual reports (SEC / HKEX)",
-    "FY2026 ARA: https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0513/2026051300653.pdf"
+    "Alibaba FY2017–FY2026 results announcements / annual reports (SEC / HKEX)"
   ],
-  "as_of": "2026-09-12",
+  "as_of": "2026-09-14",
   "rows": [
     {
       "fy": 2017,
