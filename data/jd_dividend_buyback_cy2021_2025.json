@@ -1,0 +1,58 @@
+{
+  "ticker": ["9618.HK", "JD"],
+  "name": "JD.com, Inc.",
+  "currency": "USD",
+  "fiscal_year": "calendar year ended 31 Dec",
+  "notes": [
+    "Buyback = calendar-year open-market execution (company 20-F / earnings releases).",
+    "Dividend = cash dividend announced for that fiscal year (typically next March); 2022 includes May 2022 special (~US$2.0bn) plus annual for YE2022 (~US$1.0bn).",
+    "2021: no cash dividend.",
+    "Market cap for ratio in docs: ~HKD 286.8bn (~2026-09-17) → ~US$368bn at USD/HKD≈7.8."
+  ],
+  "source": [
+    "JD.com Form 20-F FY2022 Note — Share repurchase program (2021 US$806m; 2022 US$286m)",
+    "JD.com Form 20-F / 2024 note (2023 US$356m; 2024 US$3,645m)",
+    "JD.com FY2023/FY2024/FY2025 earnings releases (dividends ~1.2 / 1.5 / 1.4; 2025 buyback ~US$3.0bn)",
+    "JD.com Special Cash Dividend announcement 2022-05-04 (~US$2.0bn)"
+  ],
+  "years": [
+    {
+      "year": 2021,
+      "dividend_usd_bn": 0,
+      "buyback_usd_bn": 0.806,
+      "total_return_usd_bn": 0.806,
+      "note": "no dividend"
+    },
+    {
+      "year": 2022,
+      "dividend_usd_bn": 3.0,
+      "buyback_usd_bn": 0.286,
+      "total_return_usd_bn": 3.286,
+      "note": "special ~2.0 (May 2022) + annual for YE2022 ~1.0 (Mar 2023)"
+    },
+    {
+      "year": 2023,
+      "dividend_usd_bn": 1.2,
+      "buyback_usd_bn": 0.356,
+      "total_return_usd_bn": 1.556
+    },
+    {
+      "year": 2024,
+      "dividend_usd_bn": 1.5,
+      "buyback_usd_bn": 3.645,
+      "total_return_usd_bn": 5.145
+    },
+    {
+      "year": 2025,
+      "dividend_usd_bn": 1.4,
+      "buyback_usd_bn": 3.0,
+      "total_return_usd_bn": 4.4,
+      "note": "buyback approx from FY2025 earnings release"
+    }
+  ],
+  "totals_usd_bn": {
+    "dividend": 7.1,
+    "buyback": 8.093,
+    "total": 15.193
+  }
+}

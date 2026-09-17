@@ -1,0 +1,28 @@
+{
+  "company": "Tencent Holdings Limited",
+  "ticker": ["0700.HK"],
+  "currency": "RMB million",
+  "fiscal_year": "calendar year ended 31 Dec",
+  "as_of": "2026-09-17",
+  "definitions": {
+    "ifrs_attributable": "Profit attributable to equity holders of the Company (IFRS)",
+    "non_ifrs_attributable": "Non-IFRS profit attributable to equity holders of the Company"
+  },
+  "source": [
+    "Tencent Annual Report 2019 five-year summary (2015–2019)",
+    "Tencent Annual Report 2024 five-year summary (2020–2024)",
+    "Tencent Annual Report 2025 five-year summary (2021–2025)"
+  ],
+  "rows": [
+    {"year": 2016, "ifrs_attributable": 41095, "non_ifrs_attributable": 45420},
+    {"year": 2017, "ifrs_attributable": 71510, "non_ifrs_attributable": 65126},
+    {"year": 2018, "ifrs_attributable": 78719, "non_ifrs_attributable": 77469},
+    {"year": 2019, "ifrs_attributable": 93310, "non_ifrs_attributable": 94351},
+    {"year": 2020, "ifrs_attributable": 159847, "non_ifrs_attributable": 122742},
+    {"year": 2021, "ifrs_attributable": 224822, "non_ifrs_attributable": 123788},
+    {"year": 2022, "ifrs_attributable": 188243, "non_ifrs_attributable": 115649},
+    {"year": 2023, "ifrs_attributable": 115216, "non_ifrs_attributable": 157688},
+    {"year": 2024, "ifrs_attributable": 194073, "non_ifrs_attributable": 222703},
+    {"year": 2025, "ifrs_attributable": 224842, "non_ifrs_attributable": 259626}
+  ]
+}

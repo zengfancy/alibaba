@@ -1,0 +1,67 @@
+{
+  "ticker": "0700.HK",
+  "name": "Tencent Holdings",
+  "currency": "HKD",
+  "fiscal_year": "calendar",
+  "notes": [
+    "Buyback = calendar-year HKEX execution (company / exchange disclosures).",
+    "Dividend = final DPS announced for that fiscal year (typically next March); cash total from company approx or IR chart (~100m HKD).",
+    "In-specie (JD 2022, Meituan 2023) excluded from cash return.",
+    "Market cap = year-end approx (stockanalysis / S&P).",
+    "Shareholder yield ≈ (buyback + declared cash dividend) / year-end market cap."
+  ],
+  "source": [
+    "Tencent IR Dividend and EPS / Total Return chart (2026-03)",
+    "FY2024/FY2025 annual results (dividend HKD totals)",
+    "HKEX repurchase disclosures / media cross-check for annual buyback"
+  ],
+  "years": [
+    {
+      "year": 2021,
+      "dps_hkd": 1.6,
+      "dividend_hkd_bn": 153,
+      "buyback_hkd_bn": 26,
+      "total_return_hkd_bn": 179,
+      "mktcap_hkd_tn": 4.36,
+      "yield_pct": 0.4
+    },
+    {
+      "year": 2022,
+      "dps_hkd": 2.4,
+      "dividend_hkd_bn": 228,
+      "buyback_hkd_bn": 338,
+      "total_return_hkd_bn": 566,
+      "mktcap_hkd_tn": 3.14,
+      "yield_pct": 1.8,
+      "note": "plus JD.com in-specie (excluded from cash)"
+    },
+    {
+      "year": 2023,
+      "dps_hkd": 3.4,
+      "dividend_hkd_bn": 320,
+      "buyback_hkd_bn": 494,
+      "total_return_hkd_bn": 814,
+      "mktcap_hkd_tn": 2.75,
+      "yield_pct": 3.0,
+      "note": "plus Meituan in-specie (excluded from cash); dividend total company approx"
+    },
+    {
+      "year": 2024,
+      "dps_hkd": 4.5,
+      "dividend_hkd_bn": 410,
+      "buyback_hkd_bn": 1120,
+      "total_return_hkd_bn": 1530,
+      "mktcap_hkd_tn": 3.81,
+      "yield_pct": 4.0
+    },
+    {
+      "year": 2025,
+      "dps_hkd": 5.3,
+      "dividend_hkd_bn": 486,
+      "buyback_hkd_bn": 800,
+      "total_return_hkd_bn": 1286,
+      "mktcap_hkd_tn": 5.41,
+      "yield_pct": 2.4
+    }
+  ]
+}

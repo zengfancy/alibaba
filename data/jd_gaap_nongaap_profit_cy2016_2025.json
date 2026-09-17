@@ -1,0 +1,29 @@
+{
+  "company": "JD.com, Inc.",
+  "ticker": ["9618.HK", "JD"],
+  "currency": "RMB million",
+  "fiscal_year": "calendar year ended 31 Dec",
+  "as_of": "2026-09-17",
+  "definitions": {
+    "gaap_attributable": "Net income/(loss) attributable to ordinary shareholders (U.S. GAAP). 2016–2018 use continuing operations where disclosed after JD Finance spin-off.",
+    "nongaap_attributable": "Non-GAAP net income attributable to ordinary shareholders (excludes SBC, amortization of intangible assets from acquisitions, investment gains/losses, impairments, and related tax effects, per company definition)."
+  },
+  "source": [
+    "JD.com FY2016/FY2017/FY2018 earnings releases (continuing operations tables)",
+    "JD.com FY2019–FY2025 earnings releases / SEC EX-99.1",
+    "HKEX 2025 annual results announcement (table: Non-GAAP 27,032; GAAP 19,631)"
+  ],
+  "market_cap_note": "9618.HK ~HKD 286.8bn (~2026-09-17 Yahoo); CNY≈HKD×0.92",
+  "rows": [
+    {"year": 2016, "gaap_attributable": -2000, "nongaap_attributable": 2068},
+    {"year": 2017, "gaap_attributable": 117, "nongaap_attributable": 4968},
+    {"year": 2018, "gaap_attributable": -2492, "nongaap_attributable": 3460},
+    {"year": 2019, "gaap_attributable": 12200, "nongaap_attributable": 10750},
+    {"year": 2020, "gaap_attributable": 49400, "nongaap_attributable": 16828},
+    {"year": 2021, "gaap_attributable": -3560, "nongaap_attributable": 17207},
+    {"year": 2022, "gaap_attributable": 10380, "nongaap_attributable": 28220},
+    {"year": 2023, "gaap_attributable": 24200, "nongaap_attributable": 35200},
+    {"year": 2024, "gaap_attributable": 41359, "nongaap_attributable": 47827},
+    {"year": 2025, "gaap_attributable": 19631, "nongaap_attributable": 27032}
+  ]
+}
